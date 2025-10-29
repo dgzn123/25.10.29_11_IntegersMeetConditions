@@ -9,6 +9,7 @@ int main(void) {
     }
     int i, j, k;
     int cnt = 0;
+    i = a;
     while ( i <= a + 3 ) {
         j = a;
         while ( j <= a + 3 ) {
@@ -28,8 +29,11 @@ int main(void) {
                         }
                     }
                 }
+                k++;
             }
+            j++;
         }
+        i++;
     }
     return 0;
 }
